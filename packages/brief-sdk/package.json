@@ -1,0 +1,49 @@
+{
+  "name": "brief-sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for the Brief protocol — explicit agent delegation made simple.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "brief",
+    "agent",
+    "delegation",
+    "protocol",
+    "multi-agent",
+    "ai"
+  ],
+  "author": "OpenPerf",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openperf/brief.git",
+    "directory": "packages/brief-sdk"
+  },
+  "homepage": "https://github.com/openperf/brief",
+  "bugs": {
+    "url": "https://github.com/openperf/brief/issues"
+  },
+  "dependencies": {
+    "yaml": "^2.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^2.0.0"
+  }
+}

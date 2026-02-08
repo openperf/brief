@@ -1,0 +1,35 @@
+{
+  "name": "brief-protocol",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A protocol for explicit agent delegation — turning chaotic multi-agent handoffs into structured, auditable task briefings.",
+  "keywords": [
+    "agent",
+    "multi-agent",
+    "delegation",
+    "protocol",
+    "ai",
+    "llm",
+    "mcp",
+    "a2a",
+    "orchestration"
+  ],
+  "author": "OpenPerf",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openperf/brief.git"
+  },
+  "homepage": "https://github.com/openperf/brief",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "example:simple": "npx tsx examples/01-simple-delegation/index.ts",
+    "example:cascade": "npx tsx examples/02-cascade-chain/index.ts",
+    "example:fanout": "npx tsx examples/03-fan-out/index.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
