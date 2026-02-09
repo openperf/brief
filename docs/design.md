@@ -1,7 +1,5 @@
 # Brief: A Protocol for Explicit Agent Delegation
 
-**Author**: Manus AI
-**Version**: 1.2
 **Date**: 2026-02-06
 
 ## 1. Introduction: The Case for Explicit Delegation
